@@ -1,5 +1,6 @@
 {
   "name": "factucontrol",
+  "homepage": "https://github.com/davidirock/factucontrol",
   "dependencies": {
     "bootswatch": "^3.3.7",
     "angular-bootstrap": "~0.11.2",
@@ -10,13 +11,12 @@
     "jquery": "~3.1.1",
     "bootstrap": "~3.3.7"
   },
-  "description": "Manages Mexican Fiscal Bills for naive users",
-  "main": "app.js",
   "authors": [
-    "davidirock/davidirock"
+    "entrinen <entrinen@gmail.com>"
   ],
+  "description": "Manages Mexican Fiscal Bills for naive users",
+  "main": "",
   "license": "MIT",
-  "homepage": "https://github.com/davidirock/factucontrol",
   "private": true,
   "ignore": [
     "**/.*",
@@ -24,5 +24,8 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "resolutions": {
+    "angular": "~1.5.8"
+  }
 }
